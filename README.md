@@ -1,2 +1,2 @@
-# practice
+# Practice
 Repo for practice
