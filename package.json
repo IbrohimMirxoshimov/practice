@@ -1,0 +1,19 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "Repo for practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IbrohimMirxoshimov/practice.git"
+  },
+  "author": "Ibrohim Mirxoshimov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IbrohimMirxoshimov/practice/issues"
+  },
+  "homepage": "https://github.com/IbrohimMirxoshimov/practice#readme"
+}
