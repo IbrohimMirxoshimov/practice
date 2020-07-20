@@ -9,7 +9,7 @@ bot.catch(err => {
 })
 
 bot.start(ctx => {
-	ctx.reply("Tilni tanlang", getLanguageKeyboard)
+	ctx.reply("Tilni tanlang", getLanguageKeyboard())
 })
 
 bot.launch()
