@@ -4,7 +4,7 @@
   "description": "Repo for practice",
   "main": "index.js",
   "scripts": {
-    "test": "start"
+    "start": "node app"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/IbrohimMirxoshimov/practice/issues"
   },
-  "homepage": "https://github.com/IbrohimMirxoshimov/practice#readme"
+  "homepage": "https://github.com/IbrohimMirxoshimov/practice#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.38.0"
+  }
 }
