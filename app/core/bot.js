@@ -15,7 +15,7 @@ bot.start(ctx => {
 
 bot.action(/[uo]z/, ctx => {
 	ctx.answerCbQuery()
-	ctx.editMessageText(`Assalomu alaykum ${ctx.from.first_name}`)
+	ctx.editMessageText(`Assalomu alaykum ${ctx.from.first_name}\n /process - amazing`)
 })
 
 console.log("Bot launched...");
