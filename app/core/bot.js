@@ -1,4 +1,4 @@
-const { default: Telegraf } = require("telegraf");
+const { default: Telegraf, session } = require("telegraf");
 const config = require('../config');
 const { getLanguageKeyboard } = require("../util/keyboard");
 const TOKEN = config.TOKEN
@@ -7,6 +7,7 @@ const bot = new Telegraf(TOKEN)
 bot.catch(err => {
 	console.log("Global error", err);
 })
+bot.use(session())
 
 bot.start(ctx => {
 	ctx.reply("Tilni tanlang", getLanguageKeyboard())
