@@ -4,8 +4,8 @@ function getLanguageKeyboard() {
 	return Extra.markup((m) =>
 		m.inlineKeyboard(
 			[
-				m.callbackButton(`🇺🇿 Ўзбек`, 'uz', false),
-				m.callbackButton(`🇺🇿 O'zbek`, 'oz', false)
+				m.callbackButton(`🇷🇺 Русский`, 'ru', false),
+				m.callbackButton(`🇺🇿 O'zbek`, 'uz', false)
 			],
 		)
 	);

@@ -1,4 +1,4 @@
-const bot = require("../core/bot");
+const {bot} = require("../core/bot");
 
 let line = {
 	fill: "🔲",
