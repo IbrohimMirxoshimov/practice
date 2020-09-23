@@ -1,3 +1,3 @@
 module.exports = {
-	start: require("./start")
+  start: require("./start")
 }
