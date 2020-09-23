@@ -16,7 +16,7 @@ const start = new BaseScene('start')
 		// await updateLanguage(ctx, langData.p);
 		ctx.deleteMessage()
 		ctx.reply(text[lang])
-		// ctx.scene.enter("info")
+		ctx.scene.leave()
 	})
 	.on('message', (ctx) => {
 		ctx.deleteMessage()
